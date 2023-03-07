@@ -6,6 +6,9 @@
 
 int main() {
     std::cout << "TPBYHOOK\n\n";
+    std::cout << "Autohop:\t\tEnabled\n";
+    std::cout << "Glow:\t\t\tEnabled\n";
+    std::cout << "Radar:\t\t\tEnabled\n";
 
     while (true) {
         std::this_thread::sleep_for(std::chrono::milliseconds(1));
@@ -16,6 +19,9 @@ int main() {
         //glow
         Visuals::GlowColor glow_color = { 1.f, 0.f, 0.f};
         Visuals::glow(glow_color, true, true);
+
+        //radar
+        Visuals::radar();
     }
 
     return 0;

@@ -10,7 +10,7 @@
 
 namespace Misc {
     void bunnyhop() {
-        auto csgo = Memory{ "csgo.exe" };
+        auto csgo = Memory{"csgo.exe" };
         const auto client = csgo.getModuleAddress("client.dll");
 
         const auto local_player = csgo.read<uintptr_t>(client + offsets::local_player);
