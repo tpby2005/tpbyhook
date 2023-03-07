@@ -15,6 +15,9 @@ namespace offsets {
     constexpr auto team_num = 0xF4;
     constexpr auto glow_index = 0x10488;
     constexpr auto spotted = 0x93D;
+    constexpr auto force_attack = 0x322DCFC;
+    constexpr auto health = 0x100;
+    constexpr auto crosshair_id = 0x11838;
 }
 
 
