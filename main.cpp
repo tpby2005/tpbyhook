@@ -19,7 +19,7 @@ int main() {
         Misc::bunnyhop();
 
         // glow
-        Visuals::GlowColor glow_color = { 1.f, 0.f, 0.f};
+        Visuals::GlowColor glow_color = {1.f, 0.f, 0.f};
         Visuals::glow(glow_color, true, true);
 
         // radar
